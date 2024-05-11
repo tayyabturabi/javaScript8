@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"></script>
+    <link  href="style.css" rel="stylesheet"/>
+    <title>PassWord Generator</title>
+</head>
+<body>
+    <div id="main">
+        <span><input id="passwordInput" type="text" name="displayPassWord" value=""></span><br>
+     <button onclick="generatePassword()"  id="generator" type="button">Genrate Password</button>
+        <p>
+            <label><input id="alpha" type="checkbox" for="alphets"> Select Alphabets</label>
+            <label><input id="spChrater" type="checkbox" for="specialChr"> Select Special Characters</label>
+            <label><input id="num" type="checkbox" for="Numeric"> Select Numeric Characters</label>
+            <label><input id="chrRange" type="range" for="passwordLength" min="8" max="25"> Select Password Length</label> 
+        </p>
+
+    </div>
+</body>
+</html>
